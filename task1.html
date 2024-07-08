@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 180px;
+            height: 120px;
+            margin-top: 10px;
+        }
+        .pro,.ins{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(254, 255, 255);
+            width: 200px;
+            height: 300px;
+        }
+        button{
+            background-color: green;
+            outline: none;
+            border: none;
+            padding: 8px;
+            color: white;
+
+        }
+        .con{
+            display:grid;
+            grid-template-columns: repeat(2,200px);
+            gap:20px;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgb(214, 207, 207);
+        }
+        .ins h4{
+            color: rgb(0, 187, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="pro">
+            <img src="images/pexels-garrettmorrow-1649771.jpg">
+        <div class="ins">
+            <h3>Product 1</h3>
+        <h4>$10</h4>
+        <button>Add to Cart</button>
+        </div>
+       </div>
+       <div class="pro">
+        <img src="images/pexels-natri-129208.jpg">
+    <div class="ins">
+        <h3>Product 2</h3>
+    <h4>$12</h4>
+    <button>Add to Cart</button>
+    </div>
+   </div>
+   <div class="pro">
+    <img src="images/pexels-pixabay-51383.jpg">
+<div class="ins">
+    <h3>Product 3</h3>
+<h4>$41</h4>
+<button>Add to Cart</button>
+</div>
+</div>
+<div class="pro">
+    <img src="images/pexels-tracy-le-blanc-67789-607812.jpg">
+<div class="ins">
+    <h3>Product 4</h3>
+<h4>$30</h4>
+<button>Add to Cart</button>
+</div>
+</div>
+    </div>
+
+</body>
+</html>
